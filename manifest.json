@@ -1,0 +1,21 @@
+{
+    "name": "Print Bantayan Island",
+    "short_name": "PrintBantayan",
+    "description": "Find printing services on Bantayan Island",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FAF9F6",
+    "theme_color": "#84A98C",
+    "icons": [
+        {
+            "src": "assets/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
