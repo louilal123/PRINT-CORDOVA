@@ -10,7 +10,7 @@ class DataManager {
    */
   async loadShops() {
     try {
-      const response = await fetch('src/assets/data/shops.json');
+      const response = await fetch('src/assets/shops.json');
       if (!response.ok) {
         throw new Error('Failed to fetch shop data');
       }
