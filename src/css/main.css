@@ -555,6 +555,7 @@ button {
 
 /* Toast */
 .toast {
+    display: none;
   position: fixed;
   bottom: calc(var(--footer-height) + 16px);
   left: 50%;
@@ -569,6 +570,7 @@ button {
 }
 
 .toast.active {
+    display: block;
   transform: translateX(-50%) translateY(0);
 }
 

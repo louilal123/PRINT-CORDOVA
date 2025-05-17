@@ -1,5 +1,3 @@
-
-
 document.addEventListener('DOMContentLoaded', () => {
   // Create UI manager
   const uiManager = new UIManager(dataManager);
@@ -69,44 +67,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
-  // Preload placeholder images to prevent flashing
-  const preloadImages = () => {
-    const imageUrls = [
-      'src/assets/images/printing1.jpg',
-      'src/assets/images/printing2.jpg',
-      'src/assets/images/printing3.jpg',
-      'src/assets/images/printing4.jpg',
-      'src/assets/images/printing5.jpg',
-      'src/assets/images/printing6.jpg',
-      'src/assets/images/printing7.jpg',
-      'src/assets/images/printing8.jpg'
-    ];
-    
-    imageUrls.forEach(url => {
-      const img = new Image();
-      img.src = url;
-    });
-  };
-  
-  preloadImages();
-  
-  // Create image directory if it doesn't exist
-  const createImagesDirectory = async () => {
-    // Create placeholder images for demonstration purposes
-    const imageUrls = [
-      'https://images.unsplash.com/photo-1598595471874-7295a7a9f1db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1562564055-71e051d33c19?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1576153192621-7a3be10b356e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1530435460869-d13625c69bbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      'https://images.unsplash.com/photo-1508532566027-b2032cd8a715?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
-    ];
-    
-    // For demonstration, if images don't load, we could use these as fallbacks
-    console.log('Placeholder image URLs are available if needed:', imageUrls);
-  };
-  
-  createImagesDirectory();
 });

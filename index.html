@@ -70,13 +70,6 @@
       </div>
     </div>
 
-    <!-- Tabs -->
-    <div class="tabs" id="tabs">
-      <button class="tab active" data-tab="shops">All Print Shops</button>
-      <button class="tab" data-tab="favorites">Favorites</button>
-      <div class="tab-indicator"></div>
-    </div>
-
     <!-- Content -->
     <div class="content">
       <section class="content-section active" id="shops-section">
@@ -107,22 +100,30 @@
       </section>
     </div>
 
-   
-    <!-- Footer Navigation -->
-    <nav class="footer-nav">
-      <a href="#" class="footer-nav-item active" data-tab="shops">
-        <svg class="footer-nav-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/>
-        </svg>
-        <span class="footer-nav-item-label">Shops</span>
-      </a>
-      <a href="#" class="footer-nav-item" data-tab="favorites">
-        <svg class="footer-nav-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
-        </svg>
-        <span class="footer-nav-item-label">Favorites</span>
-      </a>
-    </nav>
+    <!-- Toast notification -->
+    <div class="toast" id="toast">Shop added to favorites!</div>
+
+  <!-- Footer Navigation -->
+<nav class="footer-nav">
+  <!-- Home Tab -->
+  <a href="#" class="footer-nav-item active" data-tab="shops">
+    <svg class="footer-nav-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+    </svg>
+    <span class="footer-nav-item-label">Home</span>
+  </a>
+
+  <!-- Favorites Tab -->
+  <a href="#" class="footer-nav-item" data-tab="favorites">
+    <svg class="footer-nav-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+    </svg>
+    <span class="footer-nav-item-label">Favorites</span>
+  </a>
+
+ 
+</nav>
+
   </div>
 
   <!-- Scripts -->
