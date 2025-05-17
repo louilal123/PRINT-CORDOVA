@@ -30,7 +30,16 @@
         "Stickers",
         "Graduation Studio Type Pictorials"
       ],
-      "image": "src/assets/images/gifted-hands.png"
+      "image": "src/assets/images/gifted-hands.png",
+      "description": "GiftedHands Arts and Design is your one-stop shop for all printing needs in Santa Fe. With a wide range of services from ID printing to souvenirs, we cater to both personal and business requirements with quality craftsmanship.",
+      "hours": {
+        "Monday to Friday": "8:00 AM - 7:00 PM",
+        "Saturday": "8:00 AM - 5:00 PM",
+        "Sunday": "9:00 AM - 2:00 PM"
+      },
+      "socialMedia": {
+        "facebook": "https://facebook.com/GiftedHandsArtsDesign"
+      }
     },
     {
       "id": 2,
@@ -51,7 +60,13 @@
         "3D Printing",
         "Commercial Calendar"
       ],
-      "image": "src/assets/images/teknolikha.png"
+      "image": "src/assets/images/teknolikha.png",
+      "description": "TEKNOLIKHA combines technology and creativity to deliver innovative printing solutions. Specializing in sublimation and 3D printing, we bring your designs to life with precision and vibrant colors.",
+      "hours": {
+        "Monday to Saturday": "8:30 AM - 6:30 PM",
+        "Sunday": "Closed"
+      },
+      "specialties": ["3D Printing", "Engraving", "Sublimation"]
     },
     {
       "id": 3,
@@ -78,7 +93,14 @@
         "Stickers",
         "Business Cards"
       ],
-      "image": "src/assets/images/primo.png"
+      "image": "src/assets/images/primo.png",
+      "description": "Primo Inks and Prints specializes in custom apparel printing with a focus on sports uniforms and corporate wear. Our high-quality sublimation printing ensures long-lasting, vibrant designs.",
+      "hours": {
+        "Weekdays": "8:00 AM - 7:00 PM",
+        "Saturday": "8:00 AM - 5:00 PM",
+        "Sunday": "Closed"
+      },
+      "popularServices": ["Sports Jersey Printing", "Corporate Uniforms", "Sublimation Printing"]
     },
     {
       "id": 4,
@@ -94,7 +116,12 @@
         "T-Shirt Printing",
         "Bookbinding"
       ],
-      "image": "src/assets/images/sjr.png"
+      "image": "src/assets/images/sjr.png",
+      "description": "SJR is your convenient neighborhood shop offering both school/office supplies and essential printing services. Perfect for students and professionals needing quick document services.",
+      "hours": {
+        "Monday to Saturday": "7:30 AM - 7:00 PM",
+        "Sunday": "8:00 AM - 12:00 PM"
+      }
     },
     {
       "id": 5,
@@ -120,7 +147,13 @@
         "Customized Tube Mask",
         "Xerox / Scan"
       ],
-      "image": "src/assets/images/island-arts.png"
+      "image": "src/assets/images/island-arts.png",
+      "description": "Island Arts provides comprehensive printing solutions with a focus on promotional materials and personalized items. From business cards to large signage, we've got you covered.",
+      "hours": {
+        "Weekdays": "8:00 AM - 6:30 PM",
+        "Weekend": "8:00 AM - 4:00 PM"
+      },
+      "specialNote": "Specializes in event souvenirs and promotional materials"
     },
     {
       "id": 6,
@@ -156,7 +189,13 @@
         "Photobooth",
         "Plaque"
       ],
-      "image": "src/assets/images/digital-printing.png"
+      "image": "src/assets/images/digital-printing.png",
+      "description": "D'CLONE is Bantayan's premier digital printing center offering an extensive range of services from basic photocopying to sophisticated signage and promotional materials.",
+      "hours": {
+        "Monday to Saturday": "7:00 AM - 8:00 PM",
+        "Sunday": "8:00 AM - 5:00 PM"
+      },
+      "capacity": "Large format printing up to 10ft wide"
     },
     {
       "id": 7,
@@ -197,7 +236,13 @@
         "Sticker Label",
         "Motor / Car Decals"
       ],
-      "image": "src/assets/images/print-hub.png"
+      "image": "src/assets/images/print-hub.png",
+      "description": "Bantayan Print Hub stands out with its advanced printing technologies including laser cutting and DTF printing, serving both individual and commercial clients with innovative solutions.",
+      "hours": {
+        "Regular Days": "7:30 AM - 7:00 PM",
+        "Holidays": "8:00 AM - 5:00 PM"
+      },
+      "technology": ["DTF Printing", "Laser Cutting", "Engraving"]
     },
     {
       "id": 8,
@@ -218,7 +263,14 @@
         "Tote Bag",
         "Cap"
       ],
-      "image": "src/assets/images/tatak-isla.png"
+      "image": "src/assets/images/tatak-isla.png",
+      "description": "Tatak Isla offers unique printing services combined with printer repair expertise. Specializing in island-themed designs and durable prints that withstand tropical conditions.",
+      "hours": {
+        "Monday to Friday": "8:00 AM - 6:00 PM",
+        "Saturday": "8:00 AM - 4:00 PM",
+        "Sunday": "Closed"
+      },
+      "uniqueService": "Printer repair and maintenance"
     },
     {
       "id": 9,
@@ -240,7 +292,13 @@
         "Mugs",
         "Tumbler"
       ],
-      "image": "src/assets/images/jrba.png"
+      "image": "src/assets/images/jrba.png",
+      "description": "JRBA specializes in durable prints for both apparel and promotional items, with particular expertise in vehicle seat covers and drinkware customization.",
+      "hours": {
+        "Monday to Saturday": "7:30 AM - 7:30 PM",
+        "Sunday": "8:00 AM - 12:00 PM"
+      },
+      "specialty": "Motorcycle and car seat cover printing"
     },
     {
       "id": 10,
@@ -255,7 +313,13 @@
         "Jersey",
         "Keychains"
       ],
-      "image": "src/assets/images/glc-graphics.png"
+      "image": "src/assets/images/glc-graphics.png",
+      "description": "GLC Graphics focuses on premium apparel printing using high-quality sublimation techniques that ensure vibrant, long-lasting designs on all types of clothing.",
+      "hours": {
+        "Weekdays": "8:00 AM - 6:00 PM",
+        "Weekend": "9:00 AM - 3:00 PM"
+      },
+      "focus": "Premium apparel printing"
     },
     {
       "id": 11,
@@ -271,7 +335,13 @@
         "Document Print",
         "Photocopy / Xerox"
       ],
-      "image": "src/assets/images/first-solution.png"
+      "image": "src/assets/images/first-solution.png",
+      "description": "First Solution provides quick and reliable printing services for everyday needs, from document reproduction to personalized drinkware and promotional items.",
+      "hours": {
+        "Monday to Saturday": "7:00 AM - 7:00 PM",
+        "Sunday": "8:00 AM - 12:00 PM"
+      },
+      "quickService": "Rush printing services available"
     }
   ]
 }

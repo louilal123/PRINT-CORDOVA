@@ -1,4 +1,5 @@
 class DataManager {
+    // C:\COMMA\PRINT-CORDOVA\src\scripts\data.js
   constructor() {
     this.shops = [];
     this.favorites = this.loadFavorites();
